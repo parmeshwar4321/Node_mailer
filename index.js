@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.get("/", (req, res) => {
-    res.sendFile("/index");
+    res.sendFile("/index.html");
 });
 
 app.post("/send_email", (req, res) => {
