@@ -17,25 +17,34 @@
 </head>
 
 <body>
-    <input class="input-field" type="text" placeholder="To: user1243@gmail.com" name="email" autocomplete="off" required />
-    </div>
-    <div class="input-wrapper">
-        <i class="fa fa-envelope icon"></i>
+    <header>
+       <h1 style="font-family: Poppins" align='center' >E-mail Sender Application</h1>
+        <h3 style="font-family: Poppins" align='center' >Using NodeMailer</h3>
+    
+    </header>
+    <form action="/send_email" method="POST"   enctype="multipart/form-data" style="max-width: 500px; margin: auto">
+        <div class="input-wrapper">
+        <input class="input-field" type="text" placeholder="To: user1243@gmail.com" name="email" autocomplete="off" required /> 
+        </div>
 
-        <input class="input-field" type="text" placeholder="Subject" name="subject" required />
-    </div>
+        <div class="input-wrapper">
+           <i class="fas fa-envelope">icons</i>
 
-    <div class="input-wrapper">
-        <textarea id="message" name="message" placeholder="Message body.." style="height: 200px; width: 100%" required></textarea>
-    </div>
+            <input class="input-field" type="text" placeholder="Subject" name="subject" required />
+        </div>
 
-    <div class="attachment-wrapper">
-        <label for="attachment">Attachment</label>
-        <input id="attachment" name="attachment" type="file" required />
-    </div>
+        <div class="input-wrapper">
+            <textarea id="message" name="message" placeholder="Message body.." style="height: 200px; width: 100%" required></textarea>
+        </div>
 
-    <button type="submit" class="send-btn">Send Mail</button>
+        <div class="attachment-wrapper">
+            <label for="attachment">Attachment</label>
+            <input id="attachment" name="attachment" type="file" required   />
+        </div>
+
+        <button href="./success.html" type="submit" class="send-btn">Send Mail</button>
     </form>
+
 
 </body>
 
