@@ -5,14 +5,18 @@ const path=require('path')
 require('dotenv').config()
 const PORT = process.env.port || 3000
 const sendemail = require('./googleAuth')
-// Multer file storage
+
+// Middlewears
 const upload = require('./middlewear/multer')
+//static files
 app.use(express.static('public'))
+
+
 // Body parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.get("/", (req, res) => {
-    res.sendFile("/index.html");
+    res.render('index')
     });
 
 console.log();
