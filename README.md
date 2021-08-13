@@ -2,7 +2,7 @@
 
 **Project Description**
 <p>I have build an Email Application using nodeJs-ExpressJs,Gmail and NodeMailer.
-user can send email to any valid email address.
+user can send email to any valid email address.User can also attach any kind of documents.
 </p>
 
 ---
