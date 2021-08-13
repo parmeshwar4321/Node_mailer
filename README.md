@@ -25,9 +25,10 @@ first you have to clone my repo <br>
 
 then write this command <br>
 ` npm install`
-
-https://github.com/parmeshwar4321/Node_mailer
-*Install Dependencies*
+ 
+ ---
+ 
+P*Install Dependencies**
 * dotenv
 * express
 * googleapis
