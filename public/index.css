@@ -17,13 +17,10 @@ h2 {
     font-family: "Poppins";
 }
 
-.icon {
-    padding: 10px;
-    background: #ff0202;
-    color: white;
-    min-width: 50px;
-    text-align: center;
-    font-family: "Poppins";
+.icons{
+    font-size: 80px;
+    margin-top: 7px;
+    
 }
 
 .input-field {
