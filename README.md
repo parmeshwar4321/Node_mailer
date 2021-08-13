@@ -19,14 +19,14 @@ user can send email to any valid email address.
   
 ---
 
-**how to install this project**
-first you have to clone my repo
-`git clone [repolink]()`
+**how to install this project** <br>
+first you have to clone my repo <br>
+`git clone` [repolink](https://github.com/parmeshwar4321/Node_mailer)
 
-then write this command
+then write this command <br>
 ` npm install`
 
-
+https://github.com/parmeshwar4321/Node_mailer
 *Install Dependencies*
 * dotenv
 * express
@@ -34,6 +34,6 @@ then write this command
 * multer
 * nodemailer
 
-**To install this dependencies**
-write this command
+**To install this dependencies** <br>
+write this command <br>
 `npm i dotenv express googleapis multer`
