@@ -4,6 +4,7 @@
 <p>I have build an Email Application using nodeJs-ExpressJs,Gmail and NodeMailer.
 user can send email to any valid email address.
 </p>
+
 ---
 
 **Prerequisites**
@@ -11,8 +12,10 @@ user can send email to any valid email address.
 2. Node installed in your system
   **What is NodeMailer ?**
   <p>Nodemailer is a Node JS module (function) that allows us to send emails from our Node JS (Server) Application.
-
-  to learn more about node mailer [Nodemailer](https://nodemailer.com/about/) </p>
+  </p> 
+  
+  to learn more about node mailer
+  [Nodemailer](https://nodemailer.com/about/) 
   
 ---
 
